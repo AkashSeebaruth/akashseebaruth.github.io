@@ -138,6 +138,12 @@ section.resume-section .resume-item .resume-date {
     color: #000000!important
 }
 
+.text-signature {
+    color: #FFFFFF!important;
+    font-family: 'Mrs Saint Delafield', serif;
+    font-size: 3rem;
+}
+
 a {
     color: #000000
 }
