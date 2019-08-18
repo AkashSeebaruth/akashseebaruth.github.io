@@ -180,7 +180,7 @@ a {
 }
 
 .technical-coverage-grid {
-    font-size: 16px;
+    font-size: 14px;
     color: #000;
     text-align: left;
     border: 0px solid #000;
@@ -219,7 +219,7 @@ a:hover {
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 14px;
   transition: 0.4s;
 }
 
