@@ -204,6 +204,14 @@ a {
     padding: 8px;
 }
 
+.tech-stack-grid {
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+    border: 0px solid #000;
+    padding: 8px;
+}
+
 a:active,
 a:focus,
 a:hover {
