@@ -156,7 +156,7 @@ a {
 
 .tech-icons {
     font-size: 12rem;
-    padding: 0px 20px 0px 20px; 
+    padding: 0px 20px 0px 20px;
     border: 1px dotted #868e96;
 }
 
@@ -211,10 +211,10 @@ a:hover {
 }
 
 .accordion {
-  background-color: #eee;
+  background-color: #F8F9F9;
   color: #444;
   cursor: pointer;
-  padding: 18px;
+  padding: 12px;
   width: 100%;
   border: none;
   text-align: left;
@@ -224,7 +224,8 @@ a:hover {
 }
 
 .accordion:hover {
-  background-color: #ccc; 
+  background-color: #343a40;
+  color:#fff;
 }
 
 .panel {
