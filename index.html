@@ -261,8 +261,7 @@
                 <h2 class="mb-5 ">Professional Technical Coverage</h2>
                 <div class="resume-item d-flex flex-column flex-md-row mb-5">
                     <div class="resume-content mr-auto">
-                        <div class="subheading mb-3"><strong>As of June 2019</strong>,
-                        below are all the technologies / tools I have worked with professionally.
+                        <div class="subheading mb-3">Below are all the technologies / tools I have worked with professionally.
                         </div>
                         <span class="mb-5">
                             Click / Tap on the different categories for more details:
@@ -614,8 +613,10 @@
 
                 <div class="resume-item d-flex flex-column flex-md-row mb-5">
                     <div class="resume-content mr-auto">
-                        <div class="subheading mb-3"><strong>As of June 2019</strong>, a total of 7+ years of professional experience in various fields with the last
-                            <strong>3.5+ years</strong> being in <strong>software engineering</strong>.</div>
+                        <div class="subheading mb-3">A total of <label id="lblMonthsAsProfessional"></label> months 
+                            (<label id="lblYearsAsProfessional"></label>+ years) of professional experience in various fields with the last
+                            <strong><label id="lblMonthsAsSoftwareEngineer"></label> months 
+                            (<label id="lblYearsAsSoftwareEngineer"></label>+ years)</strong> being in <strong>software engineering</strong>.</div>
                     </div>
                 </div>
 
@@ -816,6 +817,35 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/resume.js "></script>
+
+    <script>
+
+    var currentYear = new Date().getFullYear();
+    var currentYearAndMonth = new Date().getFullYear();
+
+    var numberOfYearsSE = currentYear - 2016;
+    var numberOfYearsProfessional = currentYear - 2012;
+
+    document.getElementById('lblYearsAsSoftwareEngineer').innerHTML = numberOfYearsSE;
+    document.getElementById('lblYearsAsProfessional').innerHTML = numberOfYearsProfessional;
+    
+    //function monthDiff(d1, d2) {
+      //  var months;
+    var numberOfMonthsSE = (((currentYearAndMonth - 2016) * 12)  + (new Date().getMonth() + 1));
+    var numberOfMonthsProfessional = (((currentYearAndMonth - 2012) * 12)  + (new Date().getMonth() + 1));
+
+    document.getElementById('lblMonthsAsSoftwareEngineer').innerHTML = numberOfMonthsSE;
+    document.getElementById('lblMonthsAsProfessional').innerHTML = numberOfMonthsProfessional;
+        
+        //months -= d1.getMonth() + 1;
+        //months += d2.getMonth();
+        //return months <= 0 ? 0 : months;
+    //}
+
+
+
+    </script>
+
 </body>
 
 </html>
