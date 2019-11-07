@@ -83,7 +83,7 @@ h2 {
     #sideNav .navbar-brand .img-profile {
         max-width: 10rem;
         max-height: 10rem;
-        border: .5rem solid rgba(255, 255, 255, .2)
+        border: .1rem dotted rgba(255, 255, 255, .2)
     }
     #sideNav .navbar-collapse {
         display: flex;
