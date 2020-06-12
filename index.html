@@ -80,10 +80,16 @@
             <div class="my-auto">
                 <h1 class="mb-0 text-primary">Akash Seebaruth</h1> </br>
 
-                <h4 class="mb-0"><img src="https://icongr.am/fontawesome/laptop.svg?size=38">  Senior Software Engineer</h4>
-                <h4 class="mb-0"><img src="https://icongr.am/fontawesome/bullseye.svg?size=38">  Java Development</h4>
-                <h4 class="mb-0"><img src="https://icongr.am/fontawesome/graduation-cap.svg?size=38">  MSc Computer Science [Distinction], University of Kent, England</h4>
-                <h4 class="mb-0"><img src="https://icongr.am/fontawesome/map-marker.svg?size=38">  Mauritius</h4>
+<!--
+                <h4 class="mb-0"><img src="https://icongr.am/material/account-tie.svg?size=50">  Senior Software Engineer</h4>
+                <h4 class="mb-0"><img src="https://icongr.am/material/language-java.svg?size=50">  Java Development</h4>
+                <h4 class="mb-0"><img src="https://icongr.am/fontawesome/graduation-cap.svg?size=50">  MSc Computer Science [Distinction], University of Kent, England</h4>
+                <h4 class="mb-0"><img src="https://icongr.am/fontawesome/map-marker.svg?size=50">  Mauritius</h4>
+-->
+                <h4 class="mb-0"><strong>Profession :</strong> Senior Software Engineer</h4>
+                <h4 class="mb-0"><strong>Speciality :</strong> Java Development</h4>
+                <h4 class="mb-0"><strong>Qualification :</strong> MSc Computer Science [Distinction]</h4>
+                <h4 class="mb-0"><strong>Alma Mater :</strong> University of Kent, England</h4>
 
                 <p class="mb-5"></p>
 
@@ -555,8 +561,8 @@
     var numberOfMonthsSE = (((currentYearAndMonth - 2016) * 12)  + (new Date().getMonth() + 1));
     var numberOfMonthsProfessional = (((currentYearAndMonth - 2012) * 12)  + (new Date().getMonth() + 1));
         
-    var numberOfYearsSE = (numberOfMonthsSE / 12).toFixed(2);
-    var numberOfYearsProfessional = (numberOfMonthsProfessional / 12).toFixed(2);
+    var numberOfYearsSE = (numberOfMonthsSE / 12).toFixed(1);
+    var numberOfYearsProfessional = (numberOfMonthsProfessional / 12).toFixed(1);
 
     document.getElementById('lblYearsAsSoftwareEngineer').innerHTML = numberOfYearsSE;
     document.getElementById('lblYearsAsProfessional').innerHTML = numberOfYearsProfessional;
